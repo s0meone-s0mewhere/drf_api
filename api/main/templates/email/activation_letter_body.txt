@@ -1,0 +1,6 @@
+Уважаемый пользователь {{ user.username }}
+
+Вы зарегистрировались на сайте
+Необходимо подтвердить email
+
+{{ host }}{% url 'register_activate' sign=sign %}
